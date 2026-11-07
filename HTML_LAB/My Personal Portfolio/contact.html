@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | My Personal Web Portfolio</title>
+</head>
+<body>
+
+  <header>
+    <h1>Your Name</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Contact me</h2>
+    <p>Have a question or want to say hello? Fill out the form below. You can also <a href="about.html">read about me</a> or <a href="projects.html">browse my projects</a> first.</p>
+
+    <form action="#" method="post">
+
+      <fieldset>
+        <legend>Your details</legend>
+
+        <p>
+          <label for="fullname">Zean Yushri B. Coplaten:</label><br>
+          <input type="text" id="fullname" name="fullname" placeholder="Juan Dela Cruz" required>
+        </p>
+
+        <p>
+          <label for="email">Email address:</label><br>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        </p>
+
+        <p>
+          <label for="topic">What is this about?</label><br>
+          <select id="topic" name="topic">
+            <option value="general">General question</option>
+            <option value="project">Project feedback</option>
+            <option value="collab">Collaboration</option>
+            <option value="other">Something else</option>
+          </select>
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend>How should I reply?</legend>
+        <input type="radio" id="reply-email" name="reply" value="email" checked>
+        <label for="reply-email">Email</label>
+        <input type="radio" id="reply-phone" name="reply" value="phone">
+        <label for="reply-phone">Phone</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Your message</legend>
+        <p>
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="6" cols="50" placeholder="Write your message here..." required></textarea>
+        </p>
+        <p>
+          <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+          <label for="newsletter">Send me updates about new projects</label>
+        </p>
+      </fieldset>
+
+      <p>
+        <button type="submit">Send message</button>
+        <button type="reset">Clear form</button>
+      </p>
+
+    </form>
+  </main>
+
+  <footer>
+    <p>Keep learning:
+      <a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank" rel="noopener noreferrer">MDN Learn</a> |
+      <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">freeCodeCamp</a> |
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </p>
+    <p>&copy; 2026 Zean Yushri B. Coplaten</p>
+  </footer>
+
+</body>
+</html>

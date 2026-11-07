@@ -1,0 +1,33 @@
+commit b9a5f732b844f9ec6f52d035e057e0f76da79455
+Author:     coplatenz <coplatenz@gmail.com>
+AuthorDate: 2026-09-26 11:55:10 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-26 11:55:10 +0800
+
+    Update README.md
+
+diff --git a/README.md b/README.md
+index 662924b..172ded2 100644
+--- a/README.md
++++ b/README.md
+@@ -1,2 +1,2 @@
+ # webtech
+-CIT14
++
+
+commit 299a887d2214e7f6d4594b18a71190b2be74056d
+Author:     coplatenz <coplatenz@gmail.com>
+AuthorDate: 2026-09-15 11:53:49 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-15 11:53:49 +0800
+
+    Initial commit
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..662924b
+--- /dev/null
++++ b/README.md
+@@ -0,0 +1,2 @@
++# webtech
++CIT14

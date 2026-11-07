@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB ACTIVITY 7: HTML Forms</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form>
+        <label for="fname">Full Name:</label><br>
+        <input type="text" placeholder="Last Name, First Name"><br><br>
+        <label for="g">Gender:</label><br>
+        <select name="g" id="g">Gender:
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        </select><br><br>
+        <label for="sid">Student ID</label>
+        <input type="text" required ="Must be filled." maxlength="11" placeholder="xx-xxxx-xxx"><br><br>
+        <label for="Email">Email:</label>
+        <input type="text" name="username" id="username" placeholder="Username" >
+        <input type="text" name="password" id="password" placeholder="Password" ><br><br><br>
+        <label for="b">Birthday:</label><br>
+        <input type="date" placeholder="DD/MM/YY" required="Must be filled"><br><br>
+        <textarea rows="10" cols="30" placeholder="HOBBIES"></textarea><br><br>
+        <label for="P">Program:</label><br>
+        <input type="checkbox">CITCS
+        <input type="checkbox">CTED
+        <input type="checkbox">COE <br><br>
+        <label for="C">Comments:</label><br>
+        <textarea name="c" id="c" rows="10" cols="30" maxlength="250"></textarea><br><br>
+        <input type="button" value="Submit"> <br><br>
+        <input type="button" value="Reset">
+    </form>
+</body>
+</html>
