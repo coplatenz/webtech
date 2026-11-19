@@ -1,3 +1,1057 @@
+commit fdb34d0b88201452832af388ee728acd5420dc91
+Author:     coplatenz <coplatenz@gmail.com>
+AuthorDate: 2026-11-07 03:49:53 +0000
+Commit:     coplatenz <coplatenz@gmail.com>
+CommitDate: 2026-11-07 03:49:53 +0000
+
+    emmet
+
+diff --git a/Coplaten.txt b/Coplaten.txt
+new file mode 100644
+index 0000000..d8ed7ba
+--- /dev/null
++++ b/Coplaten.txt
+@@ -0,0 +1,33 @@
++commit b9a5f732b844f9ec6f52d035e057e0f76da79455
++Author:     coplatenz <coplatenz@gmail.com>
++AuthorDate: 2026-09-26 11:55:10 +0800
++Commit:     GitHub <noreply@github.com>
++CommitDate: 2026-09-26 11:55:10 +0800
++
++    Update README.md
++
++diff --git a/README.md b/README.md
++index 662924b..172ded2 100644
++--- a/README.md
+++++ b/README.md
++@@ -1,2 +1,2 @@
++ # webtech
++-CIT14
+++
++
++commit 299a887d2214e7f6d4594b18a71190b2be74056d
++Author:     coplatenz <coplatenz@gmail.com>
++AuthorDate: 2026-09-15 11:53:49 +0800
++Commit:     GitHub <noreply@github.com>
++CommitDate: 2026-09-15 11:53:49 +0800
++
++    Initial commit
++
++diff --git a/README.md b/README.md
++new file mode 100644
++index 0000000..662924b
++--- /dev/null
+++++ b/README.md
++@@ -0,0 +1,2 @@
+++# webtech
+++CIT14
+diff --git a/HTML_LAB/My Personal Portfolio/about.html b/HTML_LAB/My Personal Portfolio/about.html
+new file mode 100644
+index 0000000..e225dcf
+--- /dev/null
++++ b/HTML_LAB/My Personal Portfolio/about.html	
+@@ -0,0 +1,79 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++  <meta charset="UTF-8">
++  <meta name="viewport" content="width=device-width, initial-scale=1">
++  <title>About | My Personal Web Portfolio</title>
++</head>
++<body>
++
++  <header>
++    <h1>Zean Yushri B. Coplaten</h1>
++    <nav>
++      <ul>
++        <li><a href="index.html">Home</a></li>
++        <li><a href="about.html">About</a></li>
++        <li><a href="projects.html">Projects</a></li>
++        <li><a href="contact.html">Contact</a></li>
++      </ul>
++    </nav>
++  </header>
++
++  <main>
++    <h2>About me</h2>
++
++    <article>
++      <h3>My story</h3>
++      <p>I'm a student studying information technology. I became interested in web development when I realized every website is built from the same building blocks: headings, links, images, and forms.</p>
++      <p>My goal is to become a front-end developer who builds pages that are clear, fast, and easy for everyone to use.</p>
++
++      <section>
++        <h3>Skills I'm building</h3>
++        <ul>
++          <li>HTML5 structure and semantic elements</li>
++          <li>CSS layout with Flexbox and Grid</li>
++          <li>Writing accessible forms and tables</li>
++          <li>Basic Git and GitHub workflow</li>
++          <li>Problem solving and debugging</li>
++        </ul>
++      </section>
++
++      <section>
++        <h3>My learning path</h3>
++        <ol>
++          <li>Learn HTML structure: headings, paragraphs, and links</li>
++          <li>Add media: images, audio, and embedded content</li>
++          <li>Organize data with lists and tables</li>
++          <li>Collect input with forms</li>
++          <li>Style everything with CSS</li>
++          <li>Add interactivity with JavaScript</li>
++        </ol>
++      </section>
++    </article>
++
++    <aside>
++      <figure>
++        <img width="240" height="160" alt="Illustration of a browser window with lines of code"
++          src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 200'><rect width='300' height='200' fill='%23F2B632'/><rect x='30' y='25' width='240' height='150' rx='8' fill='%231D2B2A'/><rect x='50' y='60' width='100' height='10' fill='%23EEF1EC'/><rect x='65' y='85' width='150' height='10' fill='%23F2B632'/><rect x='65' y='110' width='120' height='10' fill='%234FB3BF'/><rect x='50' y='135' width='80' height='10' fill='%23EEF1EC'/></svg>">
++        <figcaption>Every page starts as lines of code.</figcaption>
++      </figure>
++
++      <h3>Quick facts</h3>
++      <p>Location: Philippines<br>
++         Focus: Front-end development<br>
++         Currently: Final HTML lab</p>
++      <p><a href="contact.html">Get in touch</a></p>
++    </aside>
++  </main>
++
++  <footer>
++    <p>Keep learning:
++      <a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank" rel="noopener noreferrer">MDN Learn</a> |
++      <a href="https://www.w3schools.com/html/" target="_blank" rel="noopener noreferrer">W3Schools</a> |
++      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
++    </p>
++    <p>&copy; 2026 Zean Yushri B. Coplaten</p>
++  </footer>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/HTML_LAB/My Personal Portfolio/contact.html b/HTML_LAB/My Personal Portfolio/contact.html
+new file mode 100644
+index 0000000..f0708b2
+--- /dev/null
++++ b/HTML_LAB/My Personal Portfolio/contact.html	
+@@ -0,0 +1,91 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++  <meta charset="UTF-8">
++  <meta name="viewport" content="width=device-width, initial-scale=1">
++  <title>Contact | My Personal Web Portfolio</title>
++</head>
++<body>
++
++  <header>
++    <h1>Your Name</h1>
++    <nav>
++      <ul>
++        <li><a href="index.html">Home</a></li>
++        <li><a href="about.html">About</a></li>
++        <li><a href="projects.html">Projects</a></li>
++        <li><a href="gallery.html">Gallery</a></li>
++        <li><a href="contact.html">Contact</a></li>
++      </ul>
++    </nav>
++  </header>
++
++  <main>
++    <h2>Contact me</h2>
++    <p>Have a question or want to say hello? Fill out the form below. You can also <a href="about.html">read about me</a> or <a href="projects.html">browse my projects</a> first.</p>
++
++    <form action="#" method="post">
++
++      <fieldset>
++        <legend>Your details</legend>
++
++        <p>
++          <label for="fullname">Zean Yushri B. Coplaten:</label><br>
++          <input type="text" id="fullname" name="fullname" placeholder="Juan Dela Cruz" required>
++        </p>
++
++        <p>
++          <label for="email">Email address:</label><br>
++          <input type="email" id="email" name="email" placeholder="you@example.com" required>
++        </p>
++
++        <p>
++          <label for="topic">What is this about?</label><br>
++          <select id="topic" name="topic">
++            <option value="general">General question</option>
++            <option value="project">Project feedback</option>
++            <option value="collab">Collaboration</option>
++            <option value="other">Something else</option>
++          </select>
++        </p>
++      </fieldset>
++
++      <fieldset>
++        <legend>How should I reply?</legend>
++        <input type="radio" id="reply-email" name="reply" value="email" checked>
++        <label for="reply-email">Email</label>
++        <input type="radio" id="reply-phone" name="reply" value="phone">
++        <label for="reply-phone">Phone</label>
++      </fieldset>
++
++      <fieldset>
++        <legend>Your message</legend>
++        <p>
++          <label for="message">Message:</label><br>
++          <textarea id="message" name="message" rows="6" cols="50" placeholder="Write your message here..." required></textarea>
++        </p>
++        <p>
++          <input type="checkbox" id="newsletter" name="newsletter" value="yes">
++          <label for="newsletter">Send me updates about new projects</label>
++        </p>
++      </fieldset>
++
++      <p>
++        <button type="submit">Send message</button>
++        <button type="reset">Clear form</button>
++      </p>
++
++    </form>
++  </main>
++
++  <footer>
++    <p>Keep learning:
++      <a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank" rel="noopener noreferrer">MDN Learn</a> |
++      <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">freeCodeCamp</a> |
++      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
++    </p>
++    <p>&copy; 2026 Zean Yushri B. Coplaten</p>
++  </footer>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/HTML_LAB/My Personal Portfolio/index.html b/HTML_LAB/My Personal Portfolio/index.html
+new file mode 100644
+index 0000000..b53339e
+--- /dev/null
++++ b/HTML_LAB/My Personal Portfolio/index.html	
+@@ -0,0 +1,59 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++  <meta charset="UTF-8">
++  <meta name="viewport" content="width=device-width, initial-scale=1">
++  <title>Home | My Personal Web Portfolio</title>
++</head>
++<body>
++
++  <header>
++    <h1>Zean Yushri B. Coplaten</h1>
++    <nav>
++      <ul>
++        <li><a href="index.html">Home</a></li>
++        <li><a href="about.html">About</a></li>
++        <li><a href="projects.html">Projects</a></li>
++        <li><a href="gallery.html">Gallery</a></li>
++        <li><a href="contact.html">Contact</a></li>
++      </ul>
++    </nav>
++  </header>
++
++  <main>
++    <section>
++      <h2>Welcome to my portfolio</h2>
++      <p>Hi, Zean Yushri B. Coplaten. I'm learning to build websites with HTML. This portfolio shows pages, links, lists, tables, forms, and media that I made by hand.</p>
++
++      <p><a href="projects.html">See my projects</a> or <a href="about.html">read more about me</a>.</p>
++    </section>
++
++    <section>
++      <h2>What you'll find here</h2>
++      <ul>
++        <li><a href="about.html">About</a>: my background, skills, and learning path</li>
++        <li><a href="projects.html">Projects</a>: a table of what I've built</li>
++        <li><a href="contact.html">Contact</a>: a form to send me a message</li>
++      </ul>
++    </section>
++
++    <aside>
++      <h2>Helpful resources</h2>
++      <ul>
++        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer">MDN HTML reference</a></li>
++        <li><a href="https://validator.w3.org/" target="_blank" rel="noopener noreferrer">W3C Markup Validator</a></li>
++        <li><a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">freeCodeCamp</a></li>
++      </ul>
++    </aside>
++  </main>
++
++  <footer>
++    <p>Keep learning:
++      <a href="https://www.w3schools.com/html/" target="_blank" rel="noopener noreferrer">W3Schools</a> |
++      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
++    </p>
++    <p>&copy; 2026 Zean Yushri B. Coplaten</p>
++  </footer>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/HTML_LAB/My Personal Portfolio/projects.html b/HTML_LAB/My Personal Portfolio/projects.html
+new file mode 100644
+index 0000000..477bb02
+--- /dev/null
++++ b/HTML_LAB/My Personal Portfolio/projects.html	
+@@ -0,0 +1,101 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++  <meta charset="UTF-8">
++  <meta name="viewport" content="width=device-width, initial-scale=1">
++  <title>Projects | My Personal Web Portfolio</title>
++</head>
++<body>
++
++  <header>
++    <h1>Your Name</h1>
++    <nav>
++      <ul>
++        <li><a href="index.html">Home</a></li>
++        <li><a href="about.html">About</a></li>
++        <li><a href="projects.html">Projects</a></li>
++        <li><a href="gallery.html">Gallery</a></li>
++        <li><a href="contact.html">Contact</a></li>
++      </ul>
++    </nav>
++  </header>
++
++  <main>
++    <h2>Projects</h2>
++    <p>These are the practice projects I've built while learning HTML.</p>
++
++    <section>
++      <h3>Project overview</h3>
++      <table border="1" cellpadding="8" cellspacing="0">
++        <caption>Projects, tools used, and current status</caption>
++        <thead>
++          <tr>
++            <th scope="col">Project</th>
++            <th scope="col">Main HTML topic</th>
++            <th scope="col">Tools</th>
++            <th scope="col">Status</th>
++          </tr>
++        </thead>
++        <tbody>
++          <tr>
++            <th scope="row">Recipe Page</th>
++            <td>Lists and images</td>
++            <td>HTML</td>
++            <td>Finished</td>
++          </tr>
++          <tr>
++            <th scope="row">Weather Card</th>
++            <td>Semantic layout</td>
++            <td>HTML</td>
++            <td>Finished</td>
++          </tr>
++          <tr>
++            <th scope="row">Class Schedule</th>
++            <td>Tables</td>
++            <td>HTML</td>
++            <td>In progress</td>
++          </tr>
++          <tr>
++            <th scope="row">Sign-up Form</th>
++            <td>Forms and validation</td>
++            <td>HTML</td>
++            <td>Planned</td>
++          </tr>
++        </tbody>
++      </table>
++    </section>
++
++    <section>
++      <h3>Featured work</h3>
++
++      <article>
++        <figure>
++          <img width="240" height="160" alt="Illustration of a bowl of food and a recipe card"
++            src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 200'><rect width='300' height='200' fill='%23DCE6DF'/><rect x='170' y='30' width='100' height='140' rx='6' fill='white' stroke='%231D2B2A' stroke-width='3'/><rect x='185' y='55' width='60' height='8' fill='%230F6E7A'/><rect x='185' y='80' width='70' height='6' fill='%23C9D2CB'/><rect x='185' y='100' width='60' height='6' fill='%23C9D2CB'/><path d='M30 110H150Q145 165 90 165T30 110Z' fill='%23F2B632' stroke='%231D2B2A' stroke-width='3'/><ellipse cx='90' cy='110' rx='60' ry='11' fill='%230F6E7A' stroke='%231D2B2A' stroke-width='3'/></svg>">
++          <figcaption><strong>Recipe Page:</strong> an ordered list for the steps and an unordered list for the ingredients.</figcaption>
++        </figure>
++      </article>
++
++      <article>
++        <figure>
++          <img width="240" height="160" alt="Illustration of a sun behind a rain cloud"
++            src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 200'><rect width='300' height='200' fill='%230F6E7A'/><circle cx='100' cy='70' r='32' fill='%23F2B632'/><path d='M100 150Q95 120 125 120Q135 95 165 105Q190 90 205 115Q235 115 235 145Q235 165 210 165H120Q100 165 100 150Z' fill='%23EEF1EC' stroke='%231D2B2A' stroke-width='3'/></svg>">
++          <figcaption><strong>Weather Card:</strong> built with header, main, and footer to practice semantic HTML.</figcaption>
++        </figure>
++      </article>
++
++      <p>Want to give feedback? <a href="contact.html">Send me a message</a> or learn more <a href="about.html">about me</a>.</p>
++    </section>
++  </main>
++
++  <footer>
++    <p>Keep learning:
++      <a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank" rel="noopener noreferrer">MDN Learn</a> |
++      <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">freeCodeCamp</a> |
++      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
++    </p>
++    <p>&copy; 2026 Zean Yushri B. Coplaten</p>
++  </footer>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/HTML_LAB/about.html b/HTML_LAB/about.html
+new file mode 100644
+index 0000000..d7cf721
+--- /dev/null
++++ b/HTML_LAB/about.html
+@@ -0,0 +1,12 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <h1>ABOUT ME</h1>
++    <p>THERES NOTHING TO SEE HERE</p>  
++</body>
++</html>
+\ No newline at end of file
+diff --git a/HTML_LAB/contact.html b/HTML_LAB/contact.html
+new file mode 100644
+index 0000000..4a5d3d9
+--- /dev/null
++++ b/HTML_LAB/contact.html
+@@ -0,0 +1,12 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <h1>CONTACT</h1>
++    <p>NUMBER: 0922020222</p>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/HTML_LAB/emmet-laboratory/01-basic.html b/HTML_LAB/emmet-laboratory/01-basic.html
+new file mode 100644
+index 0000000..6e458ce
+--- /dev/null
++++ b/HTML_LAB/emmet-laboratory/01-basic.html
+@@ -0,0 +1,23 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    h1+h2+p+div+span+header+nav+main+section+footer
++    <h1></h1>
++    <h2></h2>
++    <h2></h2>
++    <p></p>
++    <p></p>
++    <p></p>
++    <div></div>
++    <header></header>
++    <nav></nav>
++    <main></main>
++    <footer></footer>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/HTML_LAB/emmet-laboratory/02-classes-ids.html b/HTML_LAB/emmet-laboratory/02-classes-ids.html
+new file mode 100644
+index 0000000..31a0013
+--- /dev/null
++++ b/HTML_LAB/emmet-laboratory/02-classes-ids.html
+@@ -0,0 +1,20 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <p class="introduction">with class</p>
++    <div class="container">with ID</div>
++    <div class="card featured">with class</div>
++    <section id="about" class="content-section">with ID</section>
++    <header class="site-header"></header>
++    <nav id="main-nav">with ID</nav>
++    <main class="content">with class</main>
++    <section id="about">with ID</section>
++    <footer class="site-footer">with class</footer>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/HTML_LAB/emmet-laboratory/03-navigation.html b/HTML_LAB/emmet-laboratory/03-navigation.html
+new file mode 100644
+index 0000000..0c96d5f
+--- /dev/null
++++ b/HTML_LAB/emmet-laboratory/03-navigation.html
+@@ -0,0 +1,33 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <ul>
++        <li class="items1"></li>
++        <li class="items2"></li>
++        <li class="items3"></li>
++        <li class="items4"></li>
++        <li class="items5"></li>
++        <ul>
++            <li class="Menu1"></li>
++            <li class="Menu2"></li>
++            <li class="Menu3"></li>
++            <li class="Menu4"></li>
++            <li class="Menu5"></li>
++        </ul>
++    </ul>
++    <nav>
++        <ul>
++            <li><a href="">Home</a></li>
++            <li><a href="">About</a></li>
++            <li><a href="">Portfolio</a></li>
++            <li><a href="">Services</a></li>
++            <li><a href="">Contact</a></li>
++        </ul>
++    </nav>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/HTML_LAB/emmet-laboratory/04-form.html b/HTML_LAB/emmet-laboratory/04-form.html
+new file mode 100644
+index 0000000..b3aecf1
+--- /dev/null
++++ b/HTML_LAB/emmet-laboratory/04-form.html
+@@ -0,0 +1,17 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <input type="text" name="" id="">
++    <input type="email" name="" id="">
++    <input type="password" name="" id="">
++    <input type="checkbox" name="" id="">
++    <input type="radio" name="" id="">
++    <input type="submit" value="">
++    <form action=""><input type="number" name="" id="">Student ID<input type="text" name="" id="">Full Name<input type="email" name="" id="">Email<input type="password" name="" id="">Password<input type="radio" name="" id="">Gender<input type="checkbox" name="" id="">Course<input type="text" name="" id="">Hobbies<input type="text" name="" id="">Address<input type="submit" value="">Submit</input></input></input></input></input></input></input></input></input></form>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/HTML_LAB/emmet-laboratory/05-semantic.html b/HTML_LAB/emmet-laboratory/05-semantic.html
+new file mode 100644
+index 0000000..0afbd83
+--- /dev/null
++++ b/HTML_LAB/emmet-laboratory/05-semantic.html
+@@ -0,0 +1,45 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <header>
++        <nav>
++            <main>
++                <section>
++                    <article>
++                        <aside>
++                            <footer></footer>
++                        </aside>
++                    </article>
++                </section>
++            </main>
++        </nav>
++    </header>
++    <header>
++        <h1>My Website</h1>
++    </header>
++    <nav>
++        <ul>
++            <li><a href="">Home</a></li>
++            <li><a href="">About</a></li>
++            <li><a href="">Work</a></li>
++            <li><a href="">Contact</a></li>
++        </ul>
++    </nav>
++    <main>
++        <section>
++            <article>
++                <h2>Welcome</h2>
++                <p>Hello, welcome to my website!</p>
++            </article>
++        </section>
++        <footer>
++            <p>Footer</p>
++        </footer>
++    </main>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/HTML_LAB/emmet-laboratory/index.html b/HTML_LAB/emmet-laboratory/index.html
+new file mode 100644
+index 0000000..d01f779
+--- /dev/null
++++ b/HTML_LAB/emmet-laboratory/index.html
+@@ -0,0 +1,11 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    
++</body>
++</html>
+\ No newline at end of file
+diff --git a/HTML_LAB/emmet-laboratory/portfolio.html b/HTML_LAB/emmet-laboratory/portfolio.html
+new file mode 100644
+index 0000000..7a01018
+--- /dev/null
++++ b/HTML_LAB/emmet-laboratory/portfolio.html
+@@ -0,0 +1,68 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <header>
++        <h1>Zean Yushri B. Coplaten</h1>
++        <p>Aspire to be Web developer</p>
++        <nav><a href="Home">Home</a> | <a href="About">About</a> | <a href="#Skills">Skills</a> | <a href="#Projects">Projects</a> | <a href="Contact">Contact</a></nav>
++    </header>
++
++    <section id="About">
++        <h2>About</h2>
++            <img src="" alt="Profile Picture">
++            <p>Zean Yushri B. Coplaten is an aspiring full-stack developer currently pursuing a Bachelor of Science in Information Technology, majoring in Web Development, at the University of the Cordilleras. Zean aims to leverage their hands-on training to design modern web applications. Upon graduation, they look forward to launching a career as a professional web developer and contributing to innovative tech teams.</p>
++    </section>
++
++    <section id="Skills">
++        <p>Skills</p>
++        <ul>
++            <li>HTML</a></li>
++            <li>HTML</li>
++            <li>CSS</li>
++            <li>JavaScript</li>
++            <li>PHP</li>
++            <li>MySQL</li>
++            <li>Git</li>
++        </ul>
++    </section>
++    <section id="Projects">
++    <h2>My Projects</h2>
++    <div>
++        <h3>Project 1: Recipe Blog</h3>
++        <p>A fully responsive semantic HTML page featuring a collection of family cooking recipes.</p>
++        <a href="https://github.com" target="_blank">View Project</a>
++    </div>
++
++    <div>
++        <h3>Project 2: Landing Page</h3>
++        <p>A modern product landing page optimized for mobile viewing and call-to-action buttons.</p>
++        <a href="https://github.com" target="_blank">View Project</a>
++    </div>
++
++    <div>
++        <h3>Project 3: Interactive Quiz</h3>
++        <p>A simple web application built using HTML forms to test user knowledge on programming basics.</p>
++        <a href="https://github.com" target="_blank">View Project</a>
++    </div>
++</section>
++
++<section id="Contact">
++    <h2>Contact Me</h2>
++    <form action="#" class="contact-form" method="POST">
++        <div class="form-group"><label for="name">Name</label><input type="text" id="name" name="name" required="required"></div>
++        <div class="form-group"><label for="email">Email</label><input type="email" id="email" name="email" required="required"></div>
++        <div class="form-group"><label for="subject">Subject</label><input type="text" id="subject" name="subject" required="required"></div>
++        <div class="form-group"><label for="message">Message</label><textarea name="message" id="message" rows="5" required="required"></textarea></div>
++        <button type="submit">Send Message</button>
++    </form>
++</section>
++    <footer class="site-footer">
++        <p>© 2026 - Zean Yushri B. Coplaten</p>
++    </footer>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/HTML_LAB/formatting.html b/HTML_LAB/formatting.html
+new file mode 100644
+index 0000000..09f5443
+--- /dev/null
++++ b/HTML_LAB/formatting.html
+@@ -0,0 +1,25 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Personal Introduction</title>
++</head>
++<body>
++    
++<h1>HTML Text Formatting</h1>
++<p>The b <b>makes the text bold.</b></p>
++<p>The strong is the same as b but <strong>the text are important</strong>.</p>
++<p>The i <i>makes the text italic</i>.</p>
++<p>The em <em>makes the text emphasized</em>.</p>
++<p>The small <small>makes the text smaller</small>.</p>
++<p>The sup <sup>makes the text superscipted</sup>.</p>
++<p>The sub <sub>makes the text subscripted </sub>.</p>
++<p>The mark <mark>makes the text marked/highlighted</mark>.</p>
++<p>The del <del>makes the text deleted</del>.</p>
++<p>The ins <ins>makes the text inserted</ins>.</p>
++<p>The u <u>makes the text underlined</u>.</p>
++<p>H20 and E = mc^2 in proper format.<br>= H<sub>20</sub> , E = mc<sup>2</sup></p>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/HTML_LAB/images.html b/HTML_LAB/images.html
+new file mode 100644
+index 0000000..da6143b
+--- /dev/null
++++ b/HTML_LAB/images.html
+@@ -0,0 +1,19 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Personal Introduction</title>
++</head>
++<body>
++<section class="profile-card">
++    <a href="https://example.com" target="_blank">
++        <img src="images/profile.jpg" alt="Profile photo" width="200" height="200">
++    </a>
++    
++    <h2>Your Name</h2>
++    <p>I am a student interested in learning java codes.</p>
++</section>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/HTML_LAB/index.html b/HTML_LAB/index.html
+new file mode 100644
+index 0000000..82b1ca2
+--- /dev/null
++++ b/HTML_LAB/index.html
+@@ -0,0 +1,22 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Personal Introduction</title>
++</head>
++<body>
++<h1>----My Personal Page----</h1>
++<hr>
++<h2>Zean Yushri B. Coplaten</h2>
++<p>Bachelor of Science in Information Technology.</p>
++<p><b>About me</b><br>
++    --------------<br>
++    I am a student interested in learning java codes.<br></p>
++<p><b>--HOBBIES--</b><br>
++    I enjoy playing video games, watching movies, and learning codes.<br></p>
++<p>That’s a little about me. I’m looking forward to learning new things, meeting new people, and making the most of this experience. Thank you for taking the time to listen to my introduction.
++</p>
++<hr>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/HTML_LAB/links.html b/HTML_LAB/links.html
+new file mode 100644
+index 0000000..58b5d94
+--- /dev/null
++++ b/HTML_LAB/links.html
+@@ -0,0 +1,24 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <h1>External Links</h1>
++    <ul>
++        <li><a href="https://google.com" target="_blank">Google</a></li>
++        <li><a href="https://youtube.com" target="_blank">YouTube</a></li>
++        <li><a href="https://github.com" target="_blank">GitHub</a></li>
++        <li><a href="https://wikipedia.org" target="_blank">School Website</a></li>
++    </ul>
++    <hr>
++    <h2>Challenge Section</h2>
++    <a href="#secret-section">Jump to Secret Section</a>
++
++    <div style="height: 1000px;"></div>
++
++    <h3 id="secret-section">You found the secret section!</h3>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/HTML_LAB/lists.html b/HTML_LAB/lists.html
+new file mode 100644
+index 0000000..d78a1e6
+--- /dev/null
++++ b/HTML_LAB/lists.html
+@@ -0,0 +1,38 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Personal Introduction</title>
++</head>
++<body>
++    <ul><b>Favorite Food</b>
++        <li>Fried Chicken</li>
++        <li>Adobo</li>
++        <li>Tinola</li>
++        <li>Sisig</li>
++        <li>Sinigang</li>
++    </ul>
++    <ol> <b>Top 5 Programming Languages</b>
++        <li>Python</li>
++        <li>Java</li>
++        <li>C++</li>
++        <li>PHP</li>
++        <li>C#</li>
++    </ol>
++    <ul><b>Nested List</b>
++        <li> Computer Science</li>
++        <ol>
++            li>Java</li>
++            <li>Python</li>
++            <li>PHP</li>
++        </ol>
++        <li>Web Development</li>
++        <ol>
++            <li>HTML</li>
++            <li>CSS</li>
++            <li>JavaScipt</li>
++        </ol>
++    </ul>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/HTML_LAB/multimedia.html b/HTML_LAB/multimedia.html
+new file mode 100644
+index 0000000..d01f779
+--- /dev/null
++++ b/HTML_LAB/multimedia.html
+@@ -0,0 +1,11 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    
++</body>
++</html>
+\ No newline at end of file
+diff --git a/HTML_LAB/registration.html b/HTML_LAB/registration.html
+new file mode 100644
+index 0000000..0660bd6
+--- /dev/null
++++ b/HTML_LAB/registration.html
+@@ -0,0 +1,36 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>LAB ACTIVITY 7: HTML Forms</title>
++</head>
++<body>
++    <h1>Student Registration Form</h1>
++    <form>
++        <label for="fname">Full Name:</label><br>
++        <input type="text" placeholder="Last Name, First Name"><br><br>
++        <label for="g">Gender:</label><br>
++        <select name="g" id="g">Gender:
++        <option value="male">Male</option>
++        <option value="female">Female</option>
++        </select><br><br>
++        <label for="sid">Student ID</label>
++        <input type="text" required ="Must be filled." maxlength="11" placeholder="xx-xxxx-xxx"><br><br>
++        <label for="Email">Email:</label>
++        <input type="text" name="username" id="username" placeholder="Username" >
++        <input type="text" name="password" id="password" placeholder="Password" ><br><br><br>
++        <label for="b">Birthday:</label><br>
++        <input type="date" placeholder="DD/MM/YY" required="Must be filled"><br><br>
++        <textarea rows="10" cols="30" placeholder="HOBBIES"></textarea><br><br>
++        <label for="P">Program:</label><br>
++        <input type="checkbox">CITCS
++        <input type="checkbox">CTED
++        <input type="checkbox">COE <br><br>
++        <label for="C">Comments:</label><br>
++        <textarea name="c" id="c" rows="10" cols="30" maxlength="250"></textarea><br><br>
++        <input type="button" value="Submit"> <br><br>
++        <input type="button" value="Reset">
++    </form>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/HTML_LAB/schedule.html b/HTML_LAB/schedule.html
+new file mode 100644
+index 0000000..4e9e6a6
+--- /dev/null
++++ b/HTML_LAB/schedule.html
+@@ -0,0 +1,50 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Personal Introduction</title>
++</head>
++<body>
++<table border="1" cellpadding="10" cellspacing="0">
++    <thead>
++        <tr>
++            <th>Day</th>
++            <th>Time</th>
++            <th>Subject</th>
++            <th>Room</th>
++            <th>Instructor</th>
++        </tr>
++    </thead>
++    <tbody>
++        <tr>
++            <td>Monday</td>
++            <td>8:00 AM - 9:00 AM</td>
++            <td>Introduction to IT</td>
++            <td>Room 302</td>
++            <td>Prof. Smith</td>
++        </tr>
++
++        <tr>
++            <td rowspan="2">Tuesday</td>
++            <td>10:00 AM - 11:00 AM</td>
++            <td rowspan="2">Web Development</td>
++            <td rowspan="2">LAB 1</td>
++            <td rowspan="2">Instructor Evans</td>
++        </tr>
++        <tr>
++            <td>11:00 AM - 12:00 PM</td>
++        </tr>
++
++        <tr>
++            <td colspan="2">Wed & Thu</td> 
++            <td>1:00 PM - 2:30 PM</td>
++            <td>Database Systems</td>
++            <td>LAB 2</td>
++            <td>Instructor Davis</td>
++        </tr>
++    </tbody>
++</table>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/HTML_LAB/semantic.html b/HTML_LAB/semantic.html
+new file mode 100644
+index 0000000..03aa854
+--- /dev/null
++++ b/HTML_LAB/semantic.html
+@@ -0,0 +1,47 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <header>
++        <h1>Tech Education Hub</h1>
++    </header>
++
++    <nav>
++        <ul>
++            <li><a href="#home">Home</a></li>
++            <li><a href="#articles">Articles</a></li>
++            <li><a href="#about">About</a></li>
++        </ul>
++    </nav>
++
++    <main>
++
++        <article>
++            <h2>The Importance of Web Development Skills</h2>
++            <p>Published on: October 8, 2026 | Written by: Tech Educator</p>
++            
++            <p>In today's digital-first economy, web development has shifted from a niche technical skill to a foundational pillar of modern literacy. Every business, organization, and creator relies on the web to communicate, sell, and connect. Understanding how the web functions gives individuals a massive competitive edge, regardless of their industry.</p>
++            
++            <p>Learning web development builds critical problem-solving abilities and logical thinking. Beyond writing HTML, CSS, or JavaScript, developers learn how to break complex problems down into manageable components. This tech fluency opens doors to diverse career paths, high-paying remote roles, and the freedom to build your own startups from scratch.</p>
++        </article>
++
++        <aside>
++            <h3>Quick Stats</h3>
++            <ul>
++                <li><strong>71%</strong> of small businesses have a website.</li>
++                <li>Web developer jobs are projected to grow faster than average industries over the next decade.</li>
++                <li>HTML & CSS remain the foundational coding languages of the internet.</li>
++            </ul>
++        </aside>
++
++    </main>
++
++    <footer>
++        <p>&copy; 2026 All rights reserved.</p>
++    </footer>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/README.md b/README.md
+index 172ded2..6a7a43a 100644
+--- a/README.md
++++ b/README.md
+@@ -1,2 +1,3 @@
+ # webtech
+ 
++isidkk
+\ No newline at end of file
+
 commit b9a5f732b844f9ec6f52d035e057e0f76da79455
 Author:     coplatenz <coplatenz@gmail.com>
 AuthorDate: 2026-09-26 11:55:10 +0800
